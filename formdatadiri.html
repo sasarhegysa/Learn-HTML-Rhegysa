@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Form</title>
+<style>
+    fieldset{
+        background-color: rgb(175, 208, 236);
+    }
+    legend{
+        background-color: rgb(164, 181, 197);
+    }
+</style>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>BIODATA DIRI</legend>
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" value="sasa"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea rows="4" cols="30" placeholder="Masukkan Alamat anda di sini"></textarea></td>
+            </tr>
+            <tr>
+                <td>Tempat lahir</td>
+                <td>:</td>
+                <td><input type="text" value="">
+                <input type="date"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><input type="radio" id="lakilaki" name="jeniskelamin" value="lakilaki">Laki-laki
+                    <input type="radio" id="perempuan" name="jeniskelamin" value="perempuan">Perempuan</td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td><select>
+                    <option value="islam">Islam</option><br>
+                    <option value="hindu">Hindu</option><br>
+                    <option value="budha">Budha</option><br>
+                    <option value="kristen">Kristen</option><br>
+                    <option value="katolik">Katholik</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td><input type="checkbox" value="basket">Basket
+                <input type="checkbox" value="menari">Menari
+                <input type="checkbox" value="menulis">Menulis
+                <input type="checkbox" value="ribut">Mancing Keributan
+                <input type="checkbox" value="masak">Memasak</td>
+            </tr>
+            <tr>
+                <td>Motto</td>
+                <td>:</td>
+                <td><textarea rows="4" cols="30" placeholder="Isikan motto anda di sini"></textarea></td>
+            </tr>
+        </table>
+        <button type="reset" value="reset">Reset</button>
+        <button type="submit" value="submit">Simpan</button>
+    </fieldset>
+</form>
+</body>
